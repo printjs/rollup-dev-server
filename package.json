@@ -1,0 +1,45 @@
+{
+  "name": "@wujiantao/rollup-dev-server",
+  "version": "0.1.3",
+  "description": "",
+  "main": "./lib/browser.js",
+  "bin": {
+    "@wujiantao/rollup-dev-server": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/printjs/rollup-dev-server.git"
+  },
+  "author": "wujiantao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/printjs/rollup-dev-server/issues"
+  },
+  "homepage": "https://github.com/printjs/rollup-dev-server#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/esm": "^3.2.0",
+    "@types/mime": "^2.0.3",
+    "@types/node": "^15.12.4",
+    "@types/ws": "^7.4.6",
+    "ava": "^3.15.0",
+    "nyc": "^15.1.0",
+    "rollup": "^2.52.7",
+    "ts-node": "^10.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "esm": "^3.2.25",
+    "highlight.js": "^11.0.1",
+    "log4js": "^6.3.0",
+    "mime": "^2.5.2",
+    "ws": "^7.5.2"
+  },
+  "peerDependencies": {
+    "rollup": "~2.x"
+  }
+}
