@@ -8,6 +8,8 @@ Use together with rollup, simple commands and configuration, no need to wait for
 
 ## Configuration
 
+Create a file named `rollup.dev.server.config.[js|ts|json]`, write the following attributes into it.
+
 |attributes|description|default|
 |--|--|--|
 |publicPath|Where the `@wujiantao/rollup-dev-server` looks for the context|`./`|
