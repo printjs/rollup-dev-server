@@ -1,6 +1,6 @@
 {
   "name": "@wujiantao/rollup-dev-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/browser.js",
   "bin": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/printjs/rollup-dev-server.git"
   },
-  "author": "wujiantao",
-  "license": "ISC",
+  "author": "Jiantao Wu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/printjs/rollup-dev-server/issues"
   },
