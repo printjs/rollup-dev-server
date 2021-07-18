@@ -14,7 +14,7 @@ Create a file named `rollup.dev.server.config.[js|ts|json]`, write the following
 |--|--|--|
 |publicPath|Where the `@wujiantao/rollup-dev-server` looks for the context|`./`|
 |rollupConfigFile|The name of the rollup configuration file|`rollup.config.js`|
-|port|The port of `@wujiantao/rollup-dev-server` started|`6666`|
+|port|The port of `@wujiantao/rollup-dev-server` started|`7999`|
 |pageMap|When the page is accessed`/`path, `index.html` will be returned|`{'/': 'index.html'}`|
 
 ## How to use
