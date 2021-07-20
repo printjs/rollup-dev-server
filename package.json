@@ -1,7 +1,7 @@
 {
   "name": "@wujiantao/rollup-dev-server",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "rollupjs rollup-dev-server rollup dev server development typescript javascript bundle",
   "main": "./lib/browser.js",
   "bin": {
     "@wujiantao/rollup-dev-server": "./bin/cli.js"
